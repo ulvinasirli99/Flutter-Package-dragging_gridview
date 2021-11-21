@@ -56,7 +56,7 @@ class CustomDragingGridView extends DevStackGridViewItem {
           dragStartBehavior: dragStartBehavior,
           keyboardDismissBehavior: keyboardDismissBehavior,
         );
-  const CustomDragingGridView.horizontal({
+  const CustomDragingGridView.horizontalSwipeView({
     Key? key,
     bool reverse = false,
     ScrollController? controller,
@@ -106,7 +106,7 @@ class CustomDragingGridView extends DevStackGridViewItem {
           isVertical: false,
         );
 
-  const CustomDragingGridView.stickyHeader({
+  const CustomDragingGridView.headerCling({
     Key? key,
     bool reverse = false,
     ScrollController? controller,
@@ -170,7 +170,7 @@ class CustomDragingGridView extends DevStackGridViewItem {
           headerItemCount: headerItemCount,
         );
 
- const CustomDragingGridView.horizontalStickyHeader({
+ const CustomDragingGridView.headerHorizantalCling({
     Key? key,
     bool reverse = false,
     ScrollController? controller,
